@@ -10,7 +10,9 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "_locales/zh-CN/pxt-magicwand-strings.json",
+        "_locales/zh-CN/pxt-magicwand-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
