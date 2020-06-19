@@ -2,7 +2,6 @@
  * Functions to micro:bit Magic wand kit by ELECFREAKS Co.,Ltd.
  */
 //% weight=5 color=#FD7E14 icon="\uf0d0" block="MagicWand"
-
 namespace magicWand {
     let ButtonPin = DigitalPin.P0
     let TeamId = 0
@@ -64,7 +63,7 @@ namespace magicWand {
 	/**
      * TODO: Infrared Coding of Blue Team First Seed Bomb Type
      */
-    export function blueZero() {
+    export function PrimaryMagic() {
         pins.analogWritePin(SendPin, 512)
         // 头
         pins.analogSetPeriod(SendPin, 26)
@@ -171,7 +170,7 @@ namespace magicWand {
         control.waitMicros(330)
         pins.analogSetPeriod(SendPin, 0)
     }
-    export function blueTwo() {
+    export function AdvancedMagic() {
         pins.analogWritePin(SendPin, 512)
         // 头
         pins.analogSetPeriod(SendPin, 26)
@@ -325,10 +324,10 @@ namespace magicWand {
     export function magic(): void {
         switch (MagicType) {
             case 0:
-                blueZero()
+                PrimaryMagic()
                 break;
             case 1:
-                blueTwo()
+                AdvancedMagic()
                 break;
             default:
                 break;
