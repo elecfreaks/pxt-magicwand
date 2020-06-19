@@ -7,7 +7,6 @@ namespace magicWand {
     let TeamId = 0
     let MagicType = 0
     let SendPin = AnalogPin.P1
-
     /**
     * Types of bullets fired
     */
