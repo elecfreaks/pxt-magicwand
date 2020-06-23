@@ -19,7 +19,7 @@
   "magicWand.ButtonType.down|block": "按下",
   "magicWand.ButtonType.up|block": "抬起",
   "magicWand.MagicTypeList.Advanced|block": "⚡高级",
-  "magicWand.MagicTypeList.Primary|block": "🔥P初级",
+  "magicWand.MagicTypeList.Primary|block": "🔥初级",
   "magicWand.crashSensor|block": "在 %crashSensorPin 口的按钮被按下",
   "magicWand.magic|block": "释放一次魔法",
   "magicWand.onButtonEvent|block": "在 %button 的按钮被 %event",
