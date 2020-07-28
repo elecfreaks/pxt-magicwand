@@ -4,7 +4,9 @@ This is the toy type educational product produced by ELECFREAKS. It can interact
 
 This library is designed to drive micro:bit magic wand kit , You can get this here.
 
-[https://www.elecfreaks.com](https://www.elecfreaks.com/estore)
+[https://www.elecfreaks.com](https://www.elecfreaks.com/micro-bit-magic-wand-without-micro-bit.html)
+
+Get the tutorial here: [https://www.elecfreaks.com/learn-en/](https://www.elecfreaks.com/learn-en/)
 
 ## Code Example
 ```JavaScript
